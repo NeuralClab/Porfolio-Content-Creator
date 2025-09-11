@@ -2,7 +2,7 @@
 import React from 'react';
 
 const SectionWrapper: React.FC<{id: string; title: string; children: React.ReactNode}> = ({id, title, children}) => (
-    <section id={id} className="py-20">
+    <section id={id} className="pt-40 pb-20">
         <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white">{title}</h2>
             <div className="w-24 h-1 bg-indigo-500 mx-auto mt-4"></div>
